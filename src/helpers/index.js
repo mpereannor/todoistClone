@@ -1,3 +1,3 @@
 import { collectedTasks } from '../constants'
 
-export const collectedTasksExists =  selectedProject => collectedTasksExists.find(task => task.key === selectedProject)
+export const collectedTasksExists =  selectedProject => collectedTasks.find(task => task.key === selectedProject) 
